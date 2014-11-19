@@ -1,0 +1,32 @@
+{
+  "name": "fantasy-lazy",
+  "description": "Lazy values (thunks)",
+  "keywords": [
+    "fantasyland",
+    "lazy"
+  ],
+  "author": "Matt Kaemmerer",
+  "license": "MIT",
+  "dependencies": {
+    "daggy": "0.0.1",
+    "fantasy-combinators": "0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "fantasy-check": "~0.3.0",
+    "fantasy-combinators": "0.0.1",
+    "fantasy-identities": "0.0.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "files": [
+    "fantasy-lazy.js",
+    "src/*.js"
+  ],
+  "main": "fantasy-lazy.js",
+  "version": "0.0.0"
+}
